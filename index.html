@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পারিবহন এ্ট্রি</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Paribahan Entry</h1>
+        <form id="vehicleForm">
+            <div class="input-section">
+                <input type="text" id="vehicleName" placeholder="Name" required>
+                <select id="vehicleType" required>
+                    <option value="">Select Type</option>
+                    <option value="Car">Car</option>
+                    <option value="Truck">Truck</option>
+                    <option value="Motorcycle">Motorcycle</option>
+                    <option value="Motorcycle">Bicycle</option>
+                    <option value="Van">Van</option>
+                </select>
+                <input type="text" id="registrationNumber" placeholder="registration-number" required>
+                <button type="submit">Add Vehicle</button>
+            </div>
+        </form>
+        <ul class="todo-list" id="vehicleList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

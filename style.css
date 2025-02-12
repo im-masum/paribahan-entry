@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 50vh;
+    background-color: #457d89;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px 5%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color:#457d89;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.vehicle-info {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.vehicle-info div {
+    margin-bottom: 5px;
+}
+
+.actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.actions button.delete {
+    background-color: #ff4444;
+}
+
+.actions button.delete:hover {
+    background-color: #cc0000;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #666;
+}
